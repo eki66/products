@@ -4,5 +4,5 @@ while True:
 	if name == 'q':
 		break
 	price = input('請輸入商品價格: ')
-	products.append([name, price])
+	products.append([name, price]) # 建立二維清單
 print(products)
